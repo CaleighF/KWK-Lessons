@@ -1,12 +1,13 @@
 //
 //  AppDelegate.swift
-//  MiniProject1
+//  Intro-To-Segues
 //
-//  Created by caleigh feng on 7/28/21.
+//  Created by caleigh feng on 7/29/21.
 //
 
 import UIKit
 import CoreData
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -40,7 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "MiniProject1")
+        let container = NSPersistentContainer(name: "Intro_To_Segues")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
